@@ -7,3 +7,4 @@ item.sorting_out(input_prob)
 first_try=Operate(item.num1,item.num2,item.operator)
 
 print(first_try.operation(item.num1,item.num2,item.operator))
+#print("press enter to ")

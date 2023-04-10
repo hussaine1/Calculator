@@ -1,5 +1,6 @@
 #will need to take in an input list instead, so can do mulitple operations, eg. 5+5-6x4/2
 #make a plan for this
+
 class InputOperation:
     
     def __init__(self, input_prob,num1 =0,num2=0,operator=""):

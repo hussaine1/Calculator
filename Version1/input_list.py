@@ -11,5 +11,5 @@ class InputList:
                 self.input_prob_list.append(int(i))
             elif i in operators_list:
                 self.input_prob_list.append(i)
-    def bidmas(self,input_prob_list):
+    #def bidmas(self,input_prob_list):
         

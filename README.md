@@ -11,8 +11,8 @@ Calculator coded in python. Will use OOP concepts to make a simple calculator
 
 - Added support for multiple inputs
 - eg. 2+2-4*6
-- cannot allow bracket in input
 - can perform operations on floats as well as ints
+- cannot allow bracket in input
 
 ## Version 1.2
 

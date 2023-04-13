@@ -4,7 +4,8 @@ class Calculation:
     '+': add,
     '-': sub,
     '*': mul,
-     '/': truediv
+     '/': truediv,
+     '^': pow
     }
     @staticmethod
     def is_float(string):

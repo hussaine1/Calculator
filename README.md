@@ -22,3 +22,7 @@ Calculator coded in python. Will use OOP concepts to make a simple calculator
 
 - Added Support for powers 
 
+## Version 2 (In Progress)
+
+- Need to add a GUI to the calculator
+

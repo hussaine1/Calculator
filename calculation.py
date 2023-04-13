@@ -28,6 +28,10 @@ class Calculation:
         # the next block finds the starting and ending bracket of the deepest bracket calculation
         # this is because this should be calculated first
         
+        # the deepest brackets have to be computed first. 
+        # the right-most left bracket in the deepest left bracket. 
+        # the deepest right bracket is more complicated to find depending on the input
+        # eg (()-())
         starting_brack = left_brack_list[-1]
         if min(right_brack_list) < max(left_brack_list):
             temp_right_brack_list=[]
@@ -40,16 +44,6 @@ class Calculation:
         elif min(right_brack_list) > max(left_brack_list):
             ending_brack = right_brack_list[0]
             
-        '''
-        ending_brack = right_brack_list[0]
-        if max(left_brack_list) < ending_brack:
-            starting_brack = left_brack_list[0]
-        elif max(left_brack_list) > ending_brack:
-            starting_brack = left_brack_list[-1]
-            for i in range(left_brack_list):
-                if left_brack_list[i] > ending_brack and checker==0:
-                    starting_brack = left_brack_list[i-1]
-                    checker=1'''
                     
         extracted = check_input[starting_brack+1:ending_brack]
         if starting_brack == 0:

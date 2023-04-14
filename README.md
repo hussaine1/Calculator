@@ -26,3 +26,8 @@ Calculator coded in python. Will use OOP concepts to make a simple calculator
 
 - Need to add a GUI to the calculator
 
+### Notes
+
+- currently programme cannot start with an operator, eg: -2-2
+- also cannot have two operators net to each other, eg: 64^-2
+

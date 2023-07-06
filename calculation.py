@@ -67,6 +67,9 @@ class Calculation:
             return float(input)
         elif Calculation.is_float(input)==True:
             return float(input)
+        elif input[0]=="-1":
+            
+            
         for c in Calculation.operators.keys():
             left, operator, right = input.partition(c)
             if operator in Calculation.operators:

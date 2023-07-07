@@ -1,6 +1,6 @@
 # Python-Calculator
 
-Calculator coded in python. Will use OOP concepts to make a simple calculator. ding dong
+Calculator coded in python. Will use OOP concepts to make a simple calculator. 
 
 ## Version 1
 
